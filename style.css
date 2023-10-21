@@ -1,0 +1,15 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #d0f0ff;
+}
+
+#projects {
+  background-color: #d0f0ff;
+}
+section {
+  padding-top: 6rem;
+}
+
+.card-margin {
+  margin-bottom: 2rem;
+}
