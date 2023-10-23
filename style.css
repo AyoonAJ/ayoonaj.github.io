@@ -13,3 +13,7 @@ section {
 .card-margin {
   margin-bottom: 2rem;
 }
+
+#gallery .row > * {
+  padding: 20px 20px;
+}

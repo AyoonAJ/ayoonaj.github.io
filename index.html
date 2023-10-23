@@ -15,6 +15,9 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- Animasi dari https://michalsnik.github.io/aos/ -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>My Portfolio | Ayoon</title>
   </head>
   <body id="home">
@@ -30,6 +33,7 @@
             <a class="nav-link active" aria-current="page" href="#home">Home</a>
             <a class="nav-link" href="#about">About</a>
             <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#gallery">Gallery</a>
             <a class="nav-link" href="#contact">Contact</a>
             <form class="container-fluid justify-content-start">
               <button class="btn btn-outline-light me-2" type="button">Hubungi saya</button>
@@ -62,18 +66,18 @@
       <div class="container">
         <!-- Content here -->
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-offset="350">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5">
-          <div class="col-md-5">
+          <div class="col-md-5" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-offset="300">
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, nihil nam molestias quia aliquid libero. Provident repudiandae sapiente tempore. Molestias fugiat esse sunt quasi. Ipsa quam temporibus illum totam optio
               mollitia? Molestias sunt quibusdam itaque!
             </p>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5" data-aos="fade-left" data-aos-easing="ease-in-out">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt eaque accusantium molestias repudiandae aut! Sequi harum doloremque eveniet voluptatibus laboriosam facere, delectus ratione sapiente expedita, mollitia
               ex, maxime rem.
@@ -95,13 +99,13 @@
     <section id="projects">
       <div class="container">
         <div class="row text-center mb-5">
-          <div class="col">
+          <div class="col" data-aos="fade-down">
             <h2>Whats My Projects?</h2>
           </div>
         </div>
         <div class="row">
           <!-- card graphics designer -->
-          <div class="col-md-3 card-margin">
+          <div class="col-md-3 card-margin" data-aos="zoom-in-up" data-aos-delay="100">
             <div class="card">
               <img src="img/projects/logo design.jpg" class="card-img-top" alt="web developer" />
               <div class="card-body">
@@ -112,7 +116,7 @@
             </div>
           </div>
           <!-- card web developer -->
-          <div class="col-md-3 card-margin">
+          <div class="col-md-3 card-margin" data-aos="zoom-in-up" data-aos-delay="100">
             <div class="card">
               <img src="img/projects/web dev.jpg" class="card-img-top" alt="web developer" />
               <div class="card-body">
@@ -123,7 +127,7 @@
             </div>
           </div>
           <!-- card businessman -->
-          <div class="col-md-3 card-margin">
+          <div class="col-md-3 card-margin" data-aos="zoom-in-up" data-aos-delay="100">
             <div class="card">
               <img src="img/projects/businessman.jpg" class="card-img-top" alt="web developer" />
               <div class="card-body">
@@ -134,7 +138,7 @@
             </div>
           </div>
           <!-- card dll -->
-          <div class="col-md-3 card-margin">
+          <div class="col-md-3 card-margin" data-aos="zoom-in-up" data-aos-delay="100">
             <div class="card">
               <img src="img/projects/rancangan web.jpg" class="card-img-top" alt="web developer" />
               <div class="card-body">
@@ -146,7 +150,7 @@
           </div>
         </div>
         <div class="row text-center mt-5">
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-easing="ease-in-out">
             <button type="button" class="btn btn-secondary">More Projects</button>
           </div>
         </div>
@@ -161,15 +165,71 @@
     </section>
     <!-- Akhir Projects -->
 
+    <!-- Galerry -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col" data-aos="fade-down">
+            <h2>My Gallery</h2>
+          </div>
+        </div>
+        <div class="row text-center mb-2">
+          <div class="col-md-3" data-aos="zoom-in-up">
+            <a href="#">
+              <img src="img/gallery/photo 01.jpg" alt="gallery01" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="zoom-in-up">
+            <a href="#">
+              <img src="img/gallery/photo 02.jpg" alt="gallery02" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="zoom-in-up">
+            <a href="#">
+              <img src="img/gallery/photo 03.jpg" alt="gallery03" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="zoom-in-up">
+            <a href="">
+              <img src="img/gallery/photo 04.jpg" alt="gallery04" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+        <div class="row text-center mb-5">
+          <div class="col-md-3" data-aos="zoom-in-up">
+            <a href="#">
+              <img src="img/gallery/photo 05.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="zoom-in-up">
+            <a href="">
+              <img src="img/gallery/photo 06.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="zoom-in-up">
+            <a href="#">
+              <img src="img/gallery/photo 07.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="zoom-in-up">
+            <a href="">
+              <img src="img/gallery/photo 08.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
+
     <!-- COntact -->
     <section id="contact">
       <div class="row text-center mb-3">
-        <div class="col-md">
+        <div class="col-md" data-aos="fade-down">
           <h2>Contact Me</h2>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-8 md">
+        <div class="col-8 md" data-aos="zoom-in-up" data-aos-delay="80">
           <form>
             <div class="mb-3">
               <label for="nama" class="form-label">Nama</label>
@@ -211,6 +271,15 @@
       </div>
     </footer>
     <!-- Akhir dari footer -->
+
+    <!-- javascript AOS animasi -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 2000,
+      });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
